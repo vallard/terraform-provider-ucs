@@ -41,7 +41,9 @@ If you are not familiar with the folder structure for Go projects, check out thi
 For Git information https://github.com/
 
 
+
 ### Git
+
 Make sure GIT is setup and working locally as this will be used during the setup process to clone files in different points in this setup process.
 
 
@@ -76,6 +78,7 @@ export  PATH=$PATH:/Users/yourlocalusernamehere/go
 
 Clone the terraform-provider-ucs into ```/Users/yourlocalusernamehere/go/src/github.com/micdoher/``` via the following command: -
 
+
 ```
 cd ~/Users/yourlocalusernamehere/go/src/github.com/micdoher/
 git clone https://github.com/micdoher/terraform-provider-ucs.git
@@ -89,6 +92,9 @@ git clone https://github.com/micdoher/GoUtils.git
 
 
 ### Compiling and dependency setup
+
+
+After the terraform provider has been cloned, the resulting directory structure should look like the following: -
 
 
 
